@@ -10,6 +10,11 @@ https://svelte.dev/repl/b2c657e8c49a42b6ba6aaf3dbd7d09d5
 ## Install 
 npm i @joshnuss/svelte-codemirror
 
+or 
+
+npm i git+https://github.com/hunkim/svelte-codemirror.git
+
+
 ## Usage
 
 ```html
