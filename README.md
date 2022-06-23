@@ -19,13 +19,14 @@ npm i git+https://github.com/hunkim/svelte-codemirror.git
 
 ```html
 <script>
-  import 'codemirror/mode/javascript/javascript'
+  import 'codemirror/lib/codemirror.js' // codemirror
+  import 'codemirror/mode/python/python' // python mode
   import CodeMirror from '@joshnuss/svelte-codemirror'
   
-  let editor
+  let editor = null
 </script>
 
-<CodeMirror bind:editor options={{ lineNumbers: true, mode: "javascript"}} value='const x = 42'/>
+<CodeMirror bind:editor options={{ lineNumbers: true, mode: "javascript"}} value='def f(a):'/>
 ```
 
 ## License
