@@ -24,7 +24,7 @@
     "dist"
   ],
   "peerDependencies": {
-    "codemirror": "^5.65.6"
+    "codemirror": "^5.61.0"
   },
   "version": "0.2.6"
 }
